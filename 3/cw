@@ -1,0 +1,10 @@
+function mergeArrays(arr1, arr2) {
+  let merge = arr1.concat(arr2)
+  let merged = merge.sort(function(a, b){
+    return a -b
+  })
+  let filteredMerge = merged.filter((c, index) => {
+    return merged.indexOf(c) === index
+  })
+  return filteredMerge
+}
