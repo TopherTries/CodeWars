@@ -1,0 +1,10 @@
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  let sonDouble = sonYearsOld*2
+  let catchUpDad = sonDouble - dadYearsOld
+  let ageDifference = dadYearsOld - sonDouble
+  if(dadYearsOld >= sonDouble){
+    return ageDifference
+  } else {
+    return catchUpDad
+  }
+}
