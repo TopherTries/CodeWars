@@ -1,0 +1,6 @@
+function inverseSlice(items, a, b) {
+  return items.filter(function(x,i) {
+    return (i < a || i >= b)
+    }
+  )
+}
