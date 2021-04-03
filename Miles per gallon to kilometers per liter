@@ -1,0 +1,5 @@
+function converter (mpg) {
+  let kpl = (mpg / (4.54609188 / 1.609344))
+  let kplComplete = kpl.toFixed(2)
+  return Number(kplComplete)
+}
