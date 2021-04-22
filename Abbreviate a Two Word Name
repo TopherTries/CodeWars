@@ -1,0 +1,6 @@
+function abbrevName(name){
+  let searchTerm = ' '
+  let searchTermIndex = name.indexOf(searchTerm)+1
+  let indexToString = name.charAt(searchTermIndex)
+  return `${name.charAt(0).toUpperCase()}.${indexToString.toUpperCase()}`
+}
