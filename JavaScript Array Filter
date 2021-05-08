@@ -1,0 +1,5 @@
+function getEvenNumbers(numbersArray){
+  const num = numbersArray
+  let filtered = num.filter((item) => item % 2 === 0)
+  return filtered
+}
