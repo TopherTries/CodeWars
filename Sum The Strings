@@ -1,0 +1,7 @@
+function sumStr(a,b) {
+  let first = parseFloat(a) || 0
+  let second = parseFloat(b) || 0
+  let add = first + second
+  let final = add.toString()
+  return final
+}
