@@ -1,0 +1,4 @@
+function bonusTime(salary, bonus) {
+  let bonusOrNah = (bonus === true) ? (salary*10) : salary
+  return "£" + bonusOrNah.toString()
+}
