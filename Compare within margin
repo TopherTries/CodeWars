@@ -1,0 +1,7 @@
+function closeCompare(a, b, margin = 0){
+  if(a == b || Math.abs(a - b) <= margin){
+    return 0
+  } else {
+    return a > b ? 1 : -1
+  }
+}
