@@ -1,0 +1,4 @@
+function reverseWords(str){
+  const reversed = str.split(" ").reverse().join(" ")
+  return reversed; // reverse those words
+}
