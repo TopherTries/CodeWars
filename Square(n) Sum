@@ -1,0 +1,3 @@
+function squareSum(numbers){
+  return numbers.reduce((sum, n) => (n*n) + sum, 0)
+}
