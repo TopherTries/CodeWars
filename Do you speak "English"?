@@ -1,0 +1,4 @@
+function spEng(sentence){
+ const word = 'english'
+ return (sentence.toLowerCase().includes(word) ? true : false)
+}
