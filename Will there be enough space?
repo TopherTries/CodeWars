@@ -1,0 +1,5 @@
+function enough(cap, on, wait) {
+  let space = cap - on
+  let numOfPass = wait - space
+  return (numOfPass > 0 ? numOfPass : 0)
+}
