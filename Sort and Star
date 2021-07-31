@@ -1,0 +1,6 @@
+function twoSort(s) {
+ const sorted = s.sort()
+ const firstVal = sorted[0]
+ let toStringSplitJoin = firstVal.toString().split('').join('***')
+ return toStringSplitJoin
+}
