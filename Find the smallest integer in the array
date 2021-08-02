@@ -1,0 +1,10 @@
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    // sort the array args, return first integer in array
+    
+    args.sort(function(a, b) {
+      return a - b
+    })
+    return args[0]
+  } 
+}
