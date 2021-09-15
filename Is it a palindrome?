@@ -1,0 +1,6 @@
+function isPalindrome(x) {
+  let splitString = x.split('')
+  let reverse = splitString.reverse()
+  let join = reverse.join('')
+  return (x.toLowerCase() === join.toLowerCase() ? true : false)
+}
